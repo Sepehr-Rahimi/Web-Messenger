@@ -1,0 +1,355 @@
+const messages = [
+    {
+        id:0,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'reciever'
+            },
+        ]
+    },
+    {
+        id:1,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:2,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:3,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:4,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:5,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:6,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:7,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:8,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+    {
+        id:9,
+        messages:[
+            {
+                text:'Hello',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Hi',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Good ?',
+                time:'12:38',
+                staus:'reciever'
+            },
+            {
+                text:'Im good .',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'You ?',
+                time:'12:38',
+                staus:'sender'
+            },
+            {
+                text:'Tnx',
+                time:'12:38',
+                staus:'recive'
+            },
+        ]
+    },
+]
+
+
+export default messages
