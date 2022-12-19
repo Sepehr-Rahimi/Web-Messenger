@@ -10,14 +10,14 @@ const Profile = () => {
 
 
   return (
-    <div className="bg-slate-200 shadow-md shadow-black p-3 m-3 w-full max-w-[400px] mx-auto flex flex-col">
+    <div className="bg-slate-200 shadow-md shadow-black p-3 m-3 w-full max-w-[500px] mx-auto flex flex-col">
       <button onClick={() => {navigate(-1)}} className="flex items-center">
         <img className="w-4 h-4 mr-2" src={backSvg} alt="back" />
         <span>Back</span>
       </button>
       <div className="border-b-2 pb-3 mb-3">
         <img src="" alt="" />
-        <img className="rounded-full mx-auto" src={pic} alt="you" />
+        <img className="rounded-full mx-auto w-52" src={pic} alt="you" />
       </div>
       <div className="p-2 shadow-md shadow-black rounded-lg">
         <div className="font-bold text-lg">Details :</div>
